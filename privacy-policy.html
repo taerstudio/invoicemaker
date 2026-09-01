@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
 <title>InvoiceMaker — Privacy Policy</title>
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/invoicemaker-icon.png">
 <style>
   :root {
     --bg: #ffffff; --surface: #f6f7f9; --text: #1c1e21; --muted: #5f6570;
@@ -33,7 +35,11 @@
     backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px);
     border-bottom: 1px solid var(--border); margin: 0 -20px 32px; padding: 12px 20px;
   }
-  .header-inner { max-width: var(--max); margin: 0 auto; }
+  .header-inner {
+    max-width: var(--max); margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  .header-nav { display: flex; gap: 18px; font-size: 14px; }
   .brand { font-weight: 700; color: var(--heading); font-size: 15px; letter-spacing: .2px; }
   .brand span { color: var(--muted); font-weight: 500; }
   h1 { color: var(--heading); font-size: 1.9rem; line-height: 1.2; margin: .2em 0 .1em; }
@@ -55,14 +61,19 @@
 <body>
 <header>
   <div class="header-inner">
-    <div class="brand">InvoiceMaker <span>· TaerStudio</span></div>
+    <div class="brand">InvoiceMaker</div>
+    <nav class="header-nav">
+      <a href="index.html">Home</a>
+      <a href="support.html">Support</a>
+      <a href="mailto:dev.tahatosun@gmail.com">Email</a>
+    </nav>
   </div>
 </header>
 
 <div class="wrap">
 <main lang="en">
   <h1>Privacy Policy</h1>
-  <p class="meta"><strong>App:</strong> InvoiceMaker &nbsp;·&nbsp; <strong>Publisher:</strong> TaerStudio</p>
+  <p class="meta"><strong>App:</strong> InvoiceMaker &nbsp;·&nbsp; <strong>Platform:</strong> iOS</p>
   <p class="meta"><strong>Effective date:</strong> August 2, 2026 &nbsp;·&nbsp; <strong>Last updated:</strong> August 2, 2026</p>
 
   <p class="lead">This Privacy Policy explains how InvoiceMaker (the "App") collects, uses, stores, shares, and protects information when you use it. By downloading or using the App, you agree to the practices described here. If you do not agree, please do not use the App.</p>
@@ -154,10 +165,10 @@
 
   <h2>12. Contact Us</h2>
   <p>If you have any questions, requests, or complaints about this Privacy Policy or your personal information, please contact us:</p>
-  <div class="contact"><strong>TaerStudio</strong><br>Email: <a href="mailto:dev.tahatosun@gmail.com">dev.tahatosun@gmail.com</a></div>
+  <div class="contact"><strong>InvoiceMaker</strong><br>Email: <a href="mailto:dev.tahatosun@gmail.com">dev.tahatosun@gmail.com</a></div>
 </main>
 
-<footer>© 2026 TaerStudio · InvoiceMaker</footer>
+<footer>© 2026 InvoiceMaker · <a href="support.html">Support</a></footer>
 </div>
 </body>
 </html>
